@@ -72,5 +72,5 @@ jobs:
           personal_token: ${{secrets.FU_ADMIN}}
           external_repository: cuijinsen/bailing-web-healthcare-screen # 公共仓库，格式：GitHub 用户名/仓库名
           publish_branch: gh-pages
-          publish_dir: ../../../bailing-daping
+          publish_dir: ./dist
           force_orphan: true
